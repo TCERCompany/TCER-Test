@@ -11,11 +11,19 @@ body{
   background: linear-gradient(45deg, #14222e, #2c3c4a);
   color: #fff;
   font-family: 'Quicksand', sans-serif;
+  align-items: center;
 }
 
-img{
-  width: 150px;
+.logo{
+  width: 140px;
 }
+
+.img{
+  width: 140px;
+  position: relative;
+  align-items: center;
+}
+
 
 *.hide {display: none !important; }
 
@@ -30,6 +38,7 @@ img{
   background-color: #223140;
   border-radius: 24px;
   text-align: center;
+  align-content: center;
   box-shadow: -16px 16px 16px 8px rgba(0, 0, 0, 0.2);
 }
 
