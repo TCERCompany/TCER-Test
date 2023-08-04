@@ -40,6 +40,7 @@ body{
   text-align: center;
   align-content: center;
   box-shadow: -16px 16px 16px 8px rgba(0, 0, 0, 0.2);
+  align-items: center;
 }
 
 .loadere-widget{
@@ -167,7 +168,7 @@ body{
 
 @media (max-width: 767px) {
   .contan{
-    align-items: center;
+    padding: 50px;
   }
 }
 
@@ -176,7 +177,7 @@ body{
 
 @media (min-width: 768px) and (max-width: 990px) {
   .contan{
-    align-items: center;
+    padding: 50px;
   }
 }
 
@@ -185,6 +186,6 @@ body{
 
 @media (min-width: 991px) {
   .contan{
-    align-items: center;
+    padding: 50px;
   }
 }
