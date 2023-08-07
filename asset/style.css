@@ -11,7 +11,7 @@ body{
   background: linear-gradient(45deg, #14222e, #2c3c4a);
   color: #fff;
   font-family: 'Quicksand', sans-serif;
-  align-items: center;
+
 }
 
 .logo{
@@ -31,7 +31,7 @@ body{
   position: relative;
   display: inline-block;
   padding: 20px;
-  top: 35%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   background: linear-gradient(45deg, transparent 50%, rgba(255, 255, 255, 0.08));
@@ -161,14 +161,3 @@ body{
   border-radius: 50%;
 }
 
-.content {
-  display: flex;
-  width: 100%;
-  font-size: 64px;
-  margin: 12px 0 32px 0;
-  flex-direction: column;
-}
-
-.content small{
-  font-size: 40%;
-}
